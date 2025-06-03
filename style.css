@@ -28,12 +28,13 @@ header, footer {
 }
 
 nav.top-nav {
-    display: inline-flex;
+    display:flex;
   justify-content: center;
   gap: 2rem;
   margin: 1rem 0;
   flex-wrap: wrap;
 }
+
 
 nav.bottom-nav {
   display:block;
