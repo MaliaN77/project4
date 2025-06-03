@@ -1,0 +1,134 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+  font-family: 'EB Garamond', serif;
+  background-color: #fff8f0;
+  color: #2e2e2e;
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
+}
+
+main {
+  max-width: 50em;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+p {
+  margin-bottom: 1em;
+  font-size: 1.1em;
+}
+
+header, footer {
+  background-color: rosybrown;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav.top-nav {
+    display: inline-flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+nav.bottom-nav {
+  display:block;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+  text-align: center; 
+}
+a{
+  text-decoration: none;
+  color: #8c1212;
+  font-weight: bold;
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+  float: right;
+  margin: 1rem;
+  border: 2px solid #ccc;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  font-size: 0.9em;
+  margin-top: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: #3a2e2e;
+}
+h2 {
+  text-align: center;
+  color: #8c1212;
+}
+@media (max-width: 600px) {
+  img {
+    float: none;
+    display: block;
+    margin: 1rem auto;
+    max-width: 90%;
+  }}
+
+  nav.top-nav, nav.bottom-nav {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.float-right {
+  float: right;
+  margin: 1rem;
+  max-width: 40%;
+  height: auto;
+  border: 2px solid #ccc;
+}
+.float-left {
+  float: left;
+  margin: 1rem;
+  max-width: 40%;
+  height: auto;
+  border: 2px solid #ccc;
+}
+p::first-letter {
+  font-weight: bold;
+  font-size: 1.4em;
+  line-height: 1;
+  padding-right: 0.1em;
+}
+.indented {
+  text-indent: 3em;
+}
+hr {
+  height: 1em;
+  background-color: brown;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  background-color: #fffcfa;
+  padding: 37px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  max-width: 700px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
